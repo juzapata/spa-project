@@ -9,12 +9,10 @@ body {
   background-size: cover;
 }
 header{
-  /* width: 1300px; */
   height: 25vh;
   background-color: #EC1D24;
   color: white;
   display: flex;
-  /* font-family: 'Indie Flower', cursive; */
 }
 .site-phrase{
   width: 80%;
@@ -31,14 +29,12 @@ header{
   background-size: 15vh 15vh;
   margin-bottom: 5px;
 }
-
 .search-area-style{
   width: 45vw;
   font-family: 'Special Elite', cursive;
   font-size: 20px;
   padding-right: 10px;
 }
-
 .button-style{
   background-color: transparent;
   color: white;
@@ -59,13 +55,11 @@ header{
   align-items: center;
   justify-content: space-around;
 }
-
 .showed-informartion-style{
   background-color: black;
   color: white;
   font-family: 'Special Elite', cursive;
 }
-
 .site-phrase-marvel{
   font-size: 45px;
 }
@@ -76,7 +70,6 @@ header{
   background-repeat: no-repeat;
   background-size: 225px 225px;
 }
-
 .spider-neon{
   height: 300px;
   width: 300px;
@@ -84,12 +77,10 @@ header{
   background-repeat: no-repeat;
   background-size: 300px 300px;
 }
-
 .image-size{
   width: 450px;
   height: 450px;
   border: solid white 2px;
-
 }
 .width-forty{
   width: 500px; 
@@ -109,9 +100,7 @@ footer{
 .set-icons{
   font-size: 30px;
   width: 15vw;
-  /* padding-top: 10px; */
 }
-
 .font-bai-jamburi{
   font-family: 'Bai Jamjuree', sans-serif;
 }

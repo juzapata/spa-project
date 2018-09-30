@@ -1,64 +1,55 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="dist/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree|Indie+Flower|Special+Elite" rel="stylesheet">
-  <link href="https://file.myfontastic.com/9JT5Hjkg8SzecZZJYnFrWd/icons.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <title>Marvel's Archive</title>
-</head>
-<body>
-  
-  <header class="d-flex justify-content-between w-75">
-    <div id="logo"class="d-flex justify-content-center flex-column align-items-center logo-font ml-3">
-      <div class="deadpool-icon"></div>
-      <h3>Marvel's Archive</h3>
-    </div>
-    <div id="search-area"class="search-area-style d-flex align-items-center justify-content-between">      
-      <!-- character input -->
-      <div class="d-flex flex-column align-items-start justify-content-between">
-        <p class="">Choose your character!</p>
-        <div class="d-flex">
-          <input id="input-character" class="input-style" type="text">
-          <a href="/characters"><button id="button-character" class="icon-search button-style"></button></a>
-        </div>
+  <head> 
+    <meta charset="utf-8">
+    <link rel="icon" type="images/x-ico" href="./dist/img/spider-icon.jpg">
+    <link rel="stylesheet" type="text/css" href="dist/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree|Indie+Flower|Special+Elite" rel="stylesheet">
+    <link href="https://file.myfontastic.com/9JT5Hjkg8SzecZZJYnFrWd/icons.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Marvel's Archive</title>
+  </head>
+  <body>
+    <header class="d-flex justify-content-between w-75">
+      <div id="logo"class="d-flex justify-content-center flex-column align-items-center logo-font ml-3">
+        <div class="deadpool-icon"></div>
+        <h3>Marvel's Archive</h3>
       </div>
-      <div class="d-flex flex-column align-items-start justify-content-between">
-        <p>Choose your comic!</p>
-        <div class="d-flex">
-          <!-- comic input -->
-          <input id="input-comic" class="input-style" type="text">
-          <a href="/comics"><button id="button-comic" class="icon-search button-style"></button></a>
+      <div id="search-area"class="search-area-style d-flex align-items-center justify-content-between">
+        <div class="d-flex flex-column align-items-start justify-content-between">
+          <p class="">Choose your character!</p>
+          <div class="d-flex">
+            <input id="input-character" class="input-style" type="text">
+            <a href="/characters"><button id="button-character" class="icon-search button-style"></button></a>
+          </div>
         </div>
-      </div>      
-    </div>
-  
-  </header>
-  <section id="showed-informartion" class="w-75 showed-informartion-style"></section>
-  
-  <footer class="d-flex align-items-center w-75">
-    <div class="d-flex align-items-center justify-content-between set-icons">
-     <p class="icon-linkedin"></p>
-      <p class="icon-github"></p>
-      <p class="icon-facebook-squared"></p>
-      <p class="icon-twitter"></p>
-      <p class="icon-instagrem"></p>
-    </div>
-    
-  </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <script
+        <div class="d-flex flex-column align-items-start justify-content-between">
+          <p>Choose your comic!</p>
+          <div class="d-flex">
+            <input id="input-comic" class="input-style" type="text">
+            <a href="/comics"><button id="button-comic" class="icon-search button-style"></button></a>
+          </div>
+        </div>      
+      </div>
+    </header>
+    <section id="showed-informartion" class="w-75 showed-informartion-style"></section>
+    <footer class="d-flex align-items-center w-75">
+      <div class="d-flex align-items-center justify-content-between set-icons">
+        <p class="icon-linkedin"></p>
+        <p class="icon-github"></p>
+        <p class="icon-facebook-squared"></p>
+        <p class="icon-twitter"></p>
+        <p class="icon-instagrem"></p>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-  <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
-  <script type="text/javascript" src="dist/app.js"></script>
-  <script type="text/javascript" src="dist/routes.js"></script>
-  
-</body>
+    <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+    <script type="text/javascript" src="dist/app.js"></script>
+    <script type="text/javascript" src="dist/routes.js"></script>
+  </body>
 </html>
-<!-- <input id="input-banana" class="search-input" type="text" placeholder="type here what comic do you want to see">
-
-  <a href="/characters"><button id="search" class="search-button">enviar</button></a> -->
