@@ -1,0 +1,106 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(img/marvel-comics.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header{
+  height: 25vh;
+  background-color: #EC1D24;
+  color: white;
+  display: flex;
+}
+.site-phrase{
+  width: 80%;
+  font-family: 'Special Elite', cursive;
+}
+.logo-font{
+  font-family: 'Special Elite', cursive;
+}
+.deadpool-icon{
+  background-image: url("img/deadpool-icon.png");
+  width: 15vh;
+  height: 15vh;
+  background-repeat: no-repeat;
+  background-size: 15vh 15vh;
+  margin-bottom: 5px;
+}
+.search-area-style{
+  width: 45vw;
+  font-family: 'Special Elite', cursive;
+  font-size: 20px;
+  padding-right: 10px;
+}
+.button-style{
+  background-color: transparent;
+  color: white;
+  border: transparent;
+  /* border-radius: 50%; */
+}
+.input-style{
+  border-radius: 2%;
+  border: transparent; 
+}
+.first-index-style{ 
+  background-color: black;
+  color: white;
+  width: 100%;   
+  min-height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.showed-informartion-style{
+  background-color: black;
+  color: white;
+  font-family: 'Special Elite', cursive;
+}
+.site-phrase-marvel{
+  font-size: 45px;
+}
+.dared-evil{
+  height: 225px;
+  width: 225px;
+  background-image: url("img/daredevil.gif_c200");
+  background-repeat: no-repeat;
+  background-size: 225px 225px;
+}
+.spider-neon{
+  height: 300px;
+  width: 300px;
+  background-image: url("img/spider-neon.gif");
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+}
+.image-size{
+  width: 450px;
+  height: 450px;
+  border: solid white 2px;
+}
+.width-forty{
+  width: 500px; 
+}
+hr{
+ background-color: white;
+ height: 20px;
+  
+}
+footer{
+  height: 10vh;
+  background-color: #EC1D24;
+  color: white;
+  font-family: 'Special Elite', cursive;
+  padding-top: 10px;
+}
+.set-icons{
+  font-size: 30px;
+  width: 15vw;
+}
+.font-bai-jamburi{
+  font-family: 'Bai Jamjuree', sans-serif;
+}
